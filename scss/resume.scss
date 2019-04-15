@@ -1,0 +1,44 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'global.scss';
+@import 'nav.scss';
+@import 'resume-item.scss';
+@import 'bootstrap-overrides.scss';
+
+.bg-primary {
+  background-color: #f76c5e !important;
+}
+.text-primary {
+  color: #f76c5e !important;
+}
+a {
+  color: #f76c5e;
+}
+a:active,
+a:focus,
+a:hover {
+  color: #f76c5e;
+}
+
+.tech-tags {
+  display: inline-block;
+  background-color: #f76c5e;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.project-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.circle {
+  list-style-type: circle;
+}
+
+.profile {
+  text-shadow: 1.5px 1.5px #e6dfdfb6;
+}
