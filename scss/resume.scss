@@ -6,23 +6,23 @@
 @import 'bootstrap-overrides.scss';
 
 .bg-primary {
-  background-color: #f76c5e !important;
+  background-color: $primary !important;
 }
 .text-primary {
-  color: #f76c5e !important;
+  color: $primary !important;
 }
 a {
-  color: #f76c5e;
+  color: $primary;
 }
 a:active,
 a:focus,
 a:hover {
-  color: #f76c5e;
+  color: $primary;
 }
 
 .tech-tags {
   display: inline-block;
-  background-color: #f76c5e;
+  background-color: $primary;
   color: #fff;
   padding: 4px 10px;
   font-size: 13px;
